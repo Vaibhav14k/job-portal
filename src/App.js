@@ -17,26 +17,26 @@ import { SiAdobexd } from "react-icons/si";
 const App = () => {
   return (
 
-      <div className=' bg-white w-auto h-screen border-2 mx-28 my-10  ' >
+      <div className=' bg-white w-auto h-auto border-2  border-red-600 mx-28 my-10  ' >
         <div className='navbar h-20 w-full flex justify-between   items-center   px-10 ' >  
         <div className='border-2 h-10 w-20 pl-4 pt-2  bg-zinc-200 font-bold text-lg' >logo</div>
           <div className='w-96 flex px-2 items-center justify-between h-14 border-2 rounded-full '>
-              <div className='flex  bg-orange-400 items-cente gap-2 pt-2 pl-2 w-20 border-2  rounded-full  ' >
+              <div className='flex items-center  bg-orange-400 items-cente gap-2 h-10 text-lg pl-2 w-20 border-2  rounded-full  ' >
               <FaShoppingBag />
               <p>Jobs</p>
               </div>
-              <div className='flex gap-2  text-base  ' >
+              <div className='flex gap-2 items-center text-lg    ' >
               <LuMessageSquare />
               <p className='font-light ' >Messages</p>
               </div>
-              <div className='flex gap-2  ' >
+              <div className='flex items-center text-lg gap-2  ' >
               <RiHandCoinFill />
               <p className='font-light' >Payments</p>
               </div>
           </div>
-          <div className='h-10 w-20 border-2 text-2xl pt-2 ' >
+          <div className='h-10 flex gap-4 w-28  text-3xl pt-2 ' >
           < IoMdNotifications />
-          
+          <img   className='bg-cover rounded-full w-10 '  src='atlassions.webp' />
           </div>
         </div>
         <div className=' hover:text-amber-600 border-y-2 h-20 flex  items-center justify-start gap-10 text-xl  pl-20 ' >
@@ -91,7 +91,7 @@ const App = () => {
             </div>
             <div className='ml-20 pb-10 mt-10' >
               <p>About the job</p>
-              <div className='font-semibold  border-2  gap-y-10  '>
+              <div className='font-semibold    space-y-2  '>
               <p>1.Handle the ul/ux reserch design</p>
               <p>2.Work on reserching  on latest web application designs & trends </p>
               <p>3.Work on conceptuallzing and visuallzing</p>
@@ -106,7 +106,11 @@ const App = () => {
               <p>Work Loaction:Pune</p>
               </div>
             </div>
-            <div className='border-t-4' >adfsdf
+            <div className='border-t-4' >
+              <div className='flex gap-5 mt-10 ml-20 ' >
+                <img className='   h-10 w-12 rounded-lg mt-10 ' src='atlassions.webp' />
+                <div className='pt-10 text-3xl' >Atlassian</div>
+              </div>
               <div className='ml-20 gap-6 flex mt-10  h-80' >
                 <div className=' w-96 text-2xl ' >
                   <p>Company Size</p>
